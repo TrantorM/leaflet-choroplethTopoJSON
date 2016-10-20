@@ -1,0 +1,39 @@
+{
+  "name": "leaflet-choroplethTopoJSON",
+  "version": "0.1",
+  "description": "Choropleth plugin for Leaflet for topojson suport (color scale based on value). Based on code from https://github.com/timwis/leaflet-choropleth",
+  "main": "src/choroplethTopoJSON.js",
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack --watch",
+    "test": "standard src | snazzy && mocha test"
+  },
+  "keywords": [
+    "leaflet",
+    "choropleth",
+    "chloropleth",
+    "topojson"
+  ],
+  "author": "timwis <tim@timwis.com>, Marcel Stadelmann <marcel.stadelmann(at)gmx.net>",
+  "homepage": "https://github.com/TrantorM/leaflet-choroplethTopoJSON",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TrantorM/leaflet-choroplethTopoJSON.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jsdom": "^7.2.0",
+    "mocha": "^2.3.4",
+    "mocha-jsdom": "^1.0.0",
+    "should": "^8.0.0",
+    "snazzy": "^2.0.1",
+    "standard": "^5.4.1",
+    "webpack": "^1.12.3"
+  },
+  "dependencies": {
+    "chroma-js": "^1.1.1",
+    "leaflet": "^0.7.7",
+    "lodash": "^3.10.1",
+    "topojson": "^1.6.27"
+  }
+}
