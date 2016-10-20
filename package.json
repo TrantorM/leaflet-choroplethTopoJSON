@@ -1,6 +1,6 @@
 {
   "name": "leaflet-choroplethTopoJSON",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Choropleth plugin for Leaflet for topojson suport (color scale based on value). Based on code from https://github.com/timwis/leaflet-choropleth",
   "main": "src/choroplethTopoJSON.js",
   "scripts": {

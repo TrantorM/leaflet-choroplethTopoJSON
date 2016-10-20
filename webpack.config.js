@@ -1,8 +1,8 @@
 module.exports = {
-  entry: './src/choropleth.js',
+  entry: './src/choroplethTopoJSON.js',
   output: {
     path: __dirname + '/dist',
-    filename: 'choropleth.min.js'
+    filename: 'choroplethTopoJSON.min.js'
   },
   externals: {
     'leaflet': 'L'
